@@ -5,11 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Magic_8_Ball"
         mc:Ignorable="d"
-        Title="MainWindow" Height="321" Width="364">
+        Title="MainWindow" Height="321" Width="374">
     <Grid>
-        <ComboBox x:Name="QuestionTypeComboBox" HorizontalAlignment="Center" Margin="234,38,0,0" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="ShakeErUpButton" Content="Shake 'Er Up!" HorizontalAlignment="Center" Margin="0,153,0,0" VerticalAlignment="Top" Width="149" Click="ShakeErUpButton_Click"/>
-        <Label x:Name="QuestionTypeLbl" Content="What type of question do you have?" HorizontalAlignment="Left" Margin="10,36,0,0" VerticalAlignment="Top" Width="219" HorizontalContentAlignment="Center"/>
+        <ComboBox x:Name="QuestionTypeComboBox" HorizontalAlignment="Left" Margin="234,69,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="ShakeErUpButton" Content="Shake 'Er Up!" HorizontalAlignment="Center" Margin="0,179,0,0" VerticalAlignment="Top" Width="149" Click="ShakeErUpButton_Click"/>
+        <Label x:Name="QuestionTypeLbl" Content="What type of question do you have?" HorizontalAlignment="Left" Margin="10,67,0,0" VerticalAlignment="Top" Width="219" HorizontalContentAlignment="Center"/>
+        <TextBlock x:Name="WelcomeMsgTxtBlock" HorizontalAlignment="Center" Margin="0,10,0,0" Text="Welcome to the magic 8 ball simulator! What question do you have for me today?" TextWrapping="Wrap" VerticalAlignment="Top" Height="39" Width="344" TextAlignment="Center"/>
+        <TextBox x:Name="QuestionTxtBx" HorizontalAlignment="Center" Margin="0,120,0,0" Text="What is your question?" TextWrapping="Wrap" VerticalAlignment="Top" Width="320" Height="33"/>
+        <TextBlock x:Name="AnswerTxtBlock" HorizontalAlignment="Center" Margin="0,236,0,0" Text="Your Answer will appear here!" TextWrapping="Wrap" VerticalAlignment="Top" Width="320" Height="40" TextAlignment="Center"/>
 
     </Grid>
 </Window>
