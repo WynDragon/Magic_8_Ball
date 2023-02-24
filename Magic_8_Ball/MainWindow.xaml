@@ -1,0 +1,15 @@
+﻿<Window x:Class="Magic_8_Ball.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Magic_8_Ball"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="321" Width="364">
+    <Grid>
+        <ComboBox x:Name="QuestionTypeComboBox" HorizontalAlignment="Center" Margin="234,38,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="ShakeErUpButton" Content="Shake 'Er Up!" HorizontalAlignment="Center" Margin="0,153,0,0" VerticalAlignment="Top" Width="149" Click="ShakeErUpButton_Click"/>
+        <Label x:Name="QuestionTypeLbl" Content="What type of question do you have?" HorizontalAlignment="Left" Margin="10,36,0,0" VerticalAlignment="Top" Width="219" HorizontalContentAlignment="Center"/>
+
+    </Grid>
+</Window>
